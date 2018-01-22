@@ -2,22 +2,29 @@
 
 public class Buildable : MonoBehaviour
 {
-    private enum Object { Tower }
 
-    private Object obj;
+    private Camera cam;
 
     private void Start()
     {
+        cam = Camera.main;
     }
 
     private void Update()
     {
-        switch (obj)
+        if ( Input.GetMouseButtonDown(1))
         {
-            case Object.Tower:
-                {
-                    break;
-                }
+            RaycastHit hit;
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit) && hit.transform.tag == "Tower" )
+            {
+                Debug.Log("I right Clicked " + hit.transform.name + " To build a tower");
+                GameObject canv = (GameObject)Instantiate(Resources.Load("TowerSelect"));
+                canv.GetComponent<Canvas>().worldCamera = cam;
+                canv.GetComponent<RectTransform>().localPosition = hit.transform.position + new Vector3(0, 1, 0.1f);
+                canv.GetComponent<RectTransform>().eulerAngles = new Vector3(25, 180, 0);
+            }
         }
     }
 }
+
