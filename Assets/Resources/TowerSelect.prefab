@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222531703592800758}
   - component: {fileID: 114753706503549720}
   - component: {fileID: 114006508432384970}
+  - component: {fileID: 114539622669685876}
   m_Layer: 0
   m_Name: Button (2)
   m_TagString: Untagged
@@ -57,6 +58,7 @@ GameObject:
   - component: {fileID: 222936136513743100}
   - component: {fileID: 114038449449418194}
   - component: {fileID: 114588152132155998}
+  - component: {fileID: 114683406620207424}
   m_Layer: 0
   m_Name: Button (1)
   m_TagString: Untagged
@@ -127,6 +129,7 @@ GameObject:
   - component: {fileID: 222391849970477704}
   - component: {fileID: 114324303987488496}
   - component: {fileID: 114104298632769342}
+  - component: {fileID: 114114721964862274}
   m_Layer: 0
   m_Name: Button (3)
   m_TagString: Untagged
@@ -162,6 +165,7 @@ GameObject:
   - component: {fileID: 222702387850459812}
   - component: {fileID: 114216211453826046}
   - component: {fileID: 114091762944892588}
+  - component: {fileID: 114973441480248770}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -207,7 +211,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114753706503549720}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114973441480248770}
+        m_MethodName: PlaceTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114012364290802460
@@ -302,7 +317,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114216211453826046}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114973441480248770}
+        m_MethodName: PlaceTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114104298632769342
@@ -343,9 +369,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114324303987488496}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114973441480248770}
+        m_MethodName: PlaceTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114114721964862274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1608267185876330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0241252670d779f4c82d4601a850e21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Socket: {fileID: 0}
 --- !u!114 &114186765087838836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -474,6 +523,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: X
+--- !u!114 &114539622669685876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1053166900683034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0241252670d779f4c82d4601a850e21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Socket: {fileID: 0}
 --- !u!114 &114576104487944372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -535,9 +596,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114038449449418194}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114973441480248770}
+        m_MethodName: PlaceTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114683406620207424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135469561769592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0241252670d779f4c82d4601a850e21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Socket: {fileID: 0}
 --- !u!114 &114688330037871336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -629,6 +713,18 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114973441480248770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816783010866068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0241252670d779f4c82d4601a850e21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Socket: {fileID: 0}
 --- !u!222 &222045479490352864
 CanvasRenderer:
   m_ObjectHideFlags: 1
