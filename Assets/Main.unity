@@ -559,6 +559,7 @@ GameObject:
   - component: {fileID: 654558614}
   - component: {fileID: 654558613}
   - component: {fileID: 654558612}
+  - component: {fileID: 654558616}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -629,6 +630,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 25, y: 180, z: 0}
+--- !u!114 &654558616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 654558611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436275a13d4459746955fc6db5953473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 10
+  increaseSpeed: 1.25
+  allowMovement: 1
+  allowRotation: 1
+  forwardButton: 119
+  backwardButton: 115
+  rightButton: 100
+  leftButton: 97
+  cursorSensitivity: 0.025
+  cursorToggleAllowed: 1
+  cursorToggleButton: 9
 --- !u!1001 &696160941
 Prefab:
   m_ObjectHideFlags: 0
@@ -1214,11 +1237,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114576104487944372, guid: 1f167c3f60452734c888905b7dd31af9,
-        type: 2}
-      propertyPath: m_CellSize.x
-      value: 120
-      objectReference: {fileID: 0}
     - target: {fileID: 224014232569926376, guid: 1f167c3f60452734c888905b7dd31af9,
         type: 2}
       propertyPath: m_AnchorMin.y
@@ -1337,11 +1355,6 @@ Prefab:
     - target: {fileID: 224360633424266120, guid: 1f167c3f60452734c888905b7dd31af9,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 114576104487944372, guid: 1f167c3f60452734c888905b7dd31af9,
-        type: 2}
-      propertyPath: m_CellSize.y
       value: 120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
