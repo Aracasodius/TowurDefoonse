@@ -4,14 +4,6 @@ using UnityEngine;
 
 public class Chain : MonoBehaviour
 {
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Physics.IgnoreLayerCollision(8, 8);
