@@ -28,7 +28,7 @@ public class Buildable : MonoBehaviour
         {
             GameObject canv = (GameObject)Instantiate(Resources.Load("TowerSelect"));
             canv.GetComponent<Canvas>().worldCamera = cam;
-            canv.GetComponent<RectTransform>().localPosition = hit.transform.position + new Vector3(0, 1.5f, 0.1f);
+            canv.GetComponent<RectTransform>().localPosition = hit.transform.position + new Vector3(0, 3f, 0.1f);
             canv.transform.LookAt(cam.transform);
             canv.GetComponentInChildren<BuildManager>().Socket = hit.transform.gameObject;
             CanvasOpen = true;
