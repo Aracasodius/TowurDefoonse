@@ -12222,7 +12222,7 @@ ParticleSystem:
     sizeAffectsWidth: 1
     sizeAffectsLifetime: 0
     inheritParticleColor: 1
-    generateLightingData: 0
+    generateLightingData: 1
     splitSubEmitterRibbons: 0
     colorOverLifetime:
       serializedVersion: 2
@@ -29726,7 +29726,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -34846567
+  randomSeed: -1084478881
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -32388,7 +32388,7 @@ ParticleSystem:
     sizeAffectsWidth: 1
     sizeAffectsLifetime: 0
     inheritParticleColor: 1
-    generateLightingData: 0
+    generateLightingData: 1
     splitSubEmitterRibbons: 0
     colorOverLifetime:
       serializedVersion: 2
@@ -36448,7 +36448,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -939062193
+  randomSeed: -795491193
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -39110,7 +39110,7 @@ ParticleSystem:
     sizeAffectsWidth: 1
     sizeAffectsLifetime: 0
     inheritParticleColor: 1
-    generateLightingData: 0
+    generateLightingData: 1
     splitSubEmitterRibbons: 0
     colorOverLifetime:
       serializedVersion: 2
