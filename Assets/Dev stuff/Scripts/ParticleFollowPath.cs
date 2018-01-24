@@ -9,6 +9,6 @@ public class ParticleFollowPath : MonoBehaviour
 
     void Start()
     {
-        iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath(pathName), "easetype", iTween.EaseType.easeInOutSine, "time", time));
+        iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath(pathName), "easetype", iTween.EaseType.easeInOutSine, "time", time, "loopType", "loop", "orientToPath", true, "delay", 0));
     }
 }
