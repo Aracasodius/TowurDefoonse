@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 49842cfbb905a8d4495734d076433dff
+timeCreated: 1516791370
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Grass1
+    100004: House
+    100006: pCube2
+    100008: pCube3
+    100010: pCube4
+    100012: pCylinder1
+    100014: pCylinder2
+    100016: pCylinder3
+    100018: pCylinder4
+    100020: pCylinder5
+    100022: Tower
+    100024: Tower1
+    100026: Tower3
+    100028: Tower4
+    100030: Tower_Roof
+    100032: Tower_Roof 1
+    100034: Tower_Roof 2
+    100036: Tower_Roof 3
+    100038: Tower_Roof1
+    100040: Tower_Roof1 1
+    100042: Tower_Roof1 2
+    100044: Tower_Window
+    100046: Tower_Window 1
+    100048: Tower_Window 2
+    100050: Tower_Window 3
+    100052: Wall_01
+    100054: Wall_02
+    100056: Wall_02 1
+    100058: Wall_02 2
+    100060: Wall_02 3
+    100062: Wall_03
+    100064: Wall_04
+    100066: Wall_05
+    400000: //RootNode
+    400002: Grass1
+    400004: House
+    400006: pCube2
+    400008: pCube3
+    400010: pCube4
+    400012: pCylinder1
+    400014: pCylinder2
+    400016: pCylinder3
+    400018: pCylinder4
+    400020: pCylinder5
+    400022: Tower
+    400024: Tower1
+    400026: Tower3
+    400028: Tower4
+    400030: Tower_Roof
+    400032: Tower_Roof 1
+    400034: Tower_Roof 2
+    400036: Tower_Roof 3
+    400038: Tower_Roof1
+    400040: Tower_Roof1 1
+    400042: Tower_Roof1 2
+    400044: Tower_Window
+    400046: Tower_Window 1
+    400048: Tower_Window 2
+    400050: Tower_Window 3
+    400052: Wall_01
+    400054: Wall_02
+    400056: Wall_02 1
+    400058: Wall_02 2
+    400060: Wall_02 3
+    400062: Wall_03
+    400064: Wall_04
+    400066: Wall_05
+    2100000: Hout
+    2100002: Stone
+    2100004: Grass
+    2300000: Grass1
+    2300002: House
+    2300004: pCube2
+    2300006: pCube3
+    2300008: pCube4
+    2300010: pCylinder1
+    2300012: pCylinder2
+    2300014: pCylinder3
+    2300016: pCylinder4
+    2300018: pCylinder5
+    2300020: Tower
+    2300022: Tower1
+    2300024: Tower3
+    2300026: Tower4
+    2300028: Tower_Roof
+    2300030: Tower_Roof 1
+    2300032: Tower_Roof 2
+    2300034: Tower_Roof 3
+    2300036: Tower_Roof1
+    2300038: Tower_Roof1 1
+    2300040: Tower_Roof1 2
+    2300042: Tower_Window
+    2300044: Tower_Window 1
+    2300046: Tower_Window 2
+    2300048: Tower_Window 3
+    2300050: Wall_01
+    2300052: Wall_02
+    2300054: Wall_02 1
+    2300056: Wall_02 2
+    2300058: Wall_02 3
+    2300060: Wall_03
+    2300062: Wall_04
+    2300064: Wall_05
+    3300000: Grass1
+    3300002: House
+    3300004: pCube2
+    3300006: pCube3
+    3300008: pCube4
+    3300010: pCylinder1
+    3300012: pCylinder2
+    3300014: pCylinder3
+    3300016: pCylinder4
+    3300018: pCylinder5
+    3300020: Tower
+    3300022: Tower1
+    3300024: Tower3
+    3300026: Tower4
+    3300028: Tower_Roof
+    3300030: Tower_Roof 1
+    3300032: Tower_Roof 2
+    3300034: Tower_Roof 3
+    3300036: Tower_Roof1
+    3300038: Tower_Roof1 1
+    3300040: Tower_Roof1 2
+    3300042: Tower_Window
+    3300044: Tower_Window 1
+    3300046: Tower_Window 2
+    3300048: Tower_Window 3
+    3300050: Wall_01
+    3300052: Wall_02
+    3300054: Wall_02 1
+    3300056: Wall_02 2
+    3300058: Wall_02 3
+    3300060: Wall_03
+    3300062: Wall_04
+    3300064: Wall_05
+    4300000: Tower
+    4300002: Tower_Window
+    4300004: Tower_Roof
+    4300006: Tower_Roof1
+    4300008: Tower1
+    4300010: Tower_Window
+    4300012: Tower_Roof
+    4300014: Tower3
+    4300016: Tower_Window
+    4300018: Tower_Roof
+    4300020: Tower_Roof1
+    4300022: Tower4
+    4300024: Tower_Window
+    4300026: Tower_Roof
+    4300028: Tower_Roof1
+    4300030: Wall_01
+    4300032: Wall_02
+    4300034: Wall_03
+    4300036: Wall_02
+    4300038: Wall_04
+    4300040: Wall_02
+    4300042: Wall_05
+    4300044: Wall_02
+    4300046: House
+    4300048: pCube4
+    4300050: pCube3
+    4300052: pCube2
+    4300054: Grass1
+    4300056: pCylinder1
+    4300058: pCylinder2
+    4300060: pCylinder3
+    4300062: pCylinder4
+    4300064: pCylinder5
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
