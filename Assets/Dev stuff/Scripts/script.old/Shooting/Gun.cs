@@ -51,7 +51,6 @@ public class Gun : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
         if (Scan)
         {
             Timer += Time.deltaTime;
@@ -61,8 +60,8 @@ public class Gun : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(muzzleflash, origin.transform.position, origin.transform.rotation, origin);
-        Instantiate(cartridge, EjectPoint.transform.position, EjectPoint.transform.rotation, EjectPoint);
+        //Instantiate(muzzleflash, origin.transform.position, origin.transform.rotation, origin);
+        //Instantiate(cartridge, EjectPoint.transform.position, EjectPoint.transform.rotation, EjectPoint);
         if (!audio.isPlaying) { audio.Play(); }
 
         RaycastHit hit;

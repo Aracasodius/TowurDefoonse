@@ -15,12 +15,7 @@ public class Detector : MonoBehaviour
 
             gun.transform.LookAt(target);
             gun.transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z *-1 , transform.rotation.w);
-
-            //Vector3 direction = Vector3.Normalize(target - transform.position);
-            //gun.transform.rotation = Quaternion.LookRotation(direction, transform.up);
         }
-
-
     }
 
     private void OnTriggerEnter(Collider other)

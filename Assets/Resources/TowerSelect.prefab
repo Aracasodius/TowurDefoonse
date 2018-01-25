@@ -351,13 +351,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 114973441480248770}
         m_MethodName: PlaceTower
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Barracks_Normal
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -457,13 +457,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 114973441480248770}
         m_MethodName: PlaceTower
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Mage_tower_Fire
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -509,13 +509,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 114973441480248770}
         m_MethodName: PlaceTower
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Ballista
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -532,10 +532,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Socket: {fileID: 0}
-  MagicTowerName: 
-  BallistaTowerName: 
-  MeleeTowerName: 
-  DebuffTowerName: 
 --- !u!114 &114120204620291768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -793,10 +789,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Socket: {fileID: 0}
-  MagicTowerName: 
-  BallistaTowerName: 
-  MeleeTowerName: 
-  DebuffTowerName: 
 --- !u!114 &114576104487944372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -894,13 +886,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 114973441480248770}
         m_MethodName: PlaceTower
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Debuff_tower
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -944,10 +936,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Socket: {fileID: 0}
-  MagicTowerName: 
-  BallistaTowerName: 
-  MeleeTowerName: 
-  DebuffTowerName: 
 --- !u!114 &114688330037871336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1113,10 +1101,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Socket: {fileID: 0}
-  MagicTowerName: 
-  BallistaTowerName: 
-  MeleeTowerName: 
-  DebuffTowerName: 
 --- !u!114 &114999264608740228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1281,7 +1265,7 @@ RectTransform:
   m_GameObject: {fileID: 1559880193674004}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 3.537442}
-  m_LocalScale: {x: 0.025, y: 0.25, z: 0.025}
+  m_LocalScale: {x: 0.025, y: 0.025, z: 0.025}
   m_Children:
   - {fileID: 224952752802960058}
   - {fileID: 224758355172083410}

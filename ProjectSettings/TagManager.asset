@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Tower
   - Enemy
   layers:
   - Default
@@ -15,14 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - Chain
-<<<<<<< HEAD
-  - WorldUI
   - 
-=======
-  - Enemy
-  - Tower
->>>>>>> 4b4c70a70920d801ef2bfe738cc562be9bd674f2
+  - 
+  - 
   - 
   - 
   - 
