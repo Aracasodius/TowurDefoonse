@@ -148,7 +148,11 @@ QualitySettings:
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Ultra
+<<<<<<< HEAD
     pixelLightCount: 30
+=======
+    pixelLightCount: 10
+>>>>>>> 4b4c70a70920d801ef2bfe738cc562be9bd674f2
     shadows: 2
     shadowResolution: 2
     shadowProjection: 1
@@ -175,4 +179,8 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
+<<<<<<< HEAD
+=======
+    Android: 0
+>>>>>>> 4b4c70a70920d801ef2bfe738cc562be9bd674f2
     Standalone: 0
