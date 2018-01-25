@@ -5,8 +5,8 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] private Transform Actor;
-    private Transform Core;
+    private Transform Actor;
+    [SerializeField] private Transform Target;
     private Health health;
 
     private NavMeshAgent agent;
@@ -17,17 +17,23 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
+        if (Actor == null) { Actor = GetComponent<Transform>(); }
+
         agent = GetComponent<NavMeshAgent>();
         health = GetComponent<Health>();
         health.maxHealth = Health;
 
-        Core = GameObject.Find("Core").transform;
+        
 
-        agent.SetDestination(Core.position);
+        
     }
 
     void Update()
     {
-        Physics.IgnoreLayerCollision(8, 9);
+        if (Target == null) { Target = GameObject.Find("Core").transform; }
+
+        agent.SetDestination(Target.position);
+        Physics.IgnoreLayerCollision(9, 9);
+        Physics.IgnoreLayerCollision(9, 10);
     }
 }
