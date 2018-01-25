@@ -2,7 +2,6 @@
 
 public class Buildable : MonoBehaviour
 {
-
     private Camera cam;
     private bool CanvasOpen;
 
@@ -11,7 +10,7 @@ public class Buildable : MonoBehaviour
         cam = Camera.main;
     }
 
-    private void FixedUpdate()
+    private void OnMouseOver()
     {
         if ( Input.GetMouseButtonUp(1))
         {
@@ -26,12 +25,16 @@ public class Buildable : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit) && hit.transform.tag == "Tower" && !CanvasOpen)
         {
-            GameObject canv = (GameObject)Instantiate(Resources.Load("TowerSelect"));
-            canv.GetComponent<Canvas>().worldCamera = cam;
-            canv.GetComponent<RectTransform>().localPosition = hit.transform.position + new Vector3(0, 3f, 0.1f);
-            canv.transform.LookAt(cam.transform);
-            canv.GetComponentInChildren<BuildManager>().Socket = hit.transform.gameObject;
-            CanvasOpen = true;
+            if (hit.transform.childCount < 1)
+            {
+                GameObject canv = (GameObject)Instantiate(Resources.Load("TowerSelect"));
+                canv.GetComponent<Canvas>().worldCamera = cam;
+                canv.GetComponent<RectTransform>().localPosition = hit.transform.position + new Vector3(0, 4f, 0.1f);
+                canv.transform.LookAt(cam.transform);
+                canv.GetComponentInChildren<BuildManager>().Socket = hit.transform.gameObject;
+                CanvasOpen = true;
+            }
+
         }
     }
 }

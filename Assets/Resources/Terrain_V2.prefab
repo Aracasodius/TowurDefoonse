@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 33824288343773008}
   - component: {fileID: 23798064545638660}
   - component: {fileID: 64780303138241746}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 4114394064103562}
   - component: {fileID: 33515810001902630}
   - component: {fileID: 23285340264370660}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Terrain_V2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 33635001006917968}
   - component: {fileID: 23791481650806272}
   - component: {fileID: 64749177178827610}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Portal (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 33760626528052894}
   - component: {fileID: 23160511628458926}
   - component: {fileID: 64620861294194562}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Portal (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,7 +761,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4634430938229364}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: It'sVoidBoy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,21 +783,6 @@ GameObject:
   m_Layer: 0
   m_Name: Tower_Base
   m_TagString: Tower
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1924943559889888
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4832806051536732}
-  m_Layer: 0
-  m_Name: Socket
-  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1027,7 +1012,7 @@ Transform:
   m_LocalPosition: {x: 0.0637599, y: 0.48656964, z: -0.037413098}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
-  - {fileID: 4832806051536732}
+  - {fileID: 4230173385476928}
   m_Father: {fileID: 4428801964431894}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1076,11 +1061,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1029119562135218}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.49999988, z: 0}
+  m_LocalScale: {x: 0.49999994, y: 0.49999997, z: 0.49999994}
   m_Children: []
-  m_Father: {fileID: 4832806051536732}
+  m_Father: {fileID: 4197410344667028}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4282056316240988
@@ -1420,20 +1405,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4634430938229364}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4832806051536732
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1924943559889888}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4230173385476928}
-  m_Father: {fileID: 4197410344667028}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4862076572736868
 Transform:
